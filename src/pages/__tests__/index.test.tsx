@@ -1,5 +1,5 @@
-import { render } from 'tests/testUtils';
-import IndexPage from 'pages/index';
+import { render } from 'src/tests/testUtils';
+import IndexPage from 'src/pages/index';
 
 describe('IndexPage', () => {
   it('matches snapshot', () => {
