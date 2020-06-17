@@ -1,9 +1,10 @@
+import { ReactElement } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { RootState } from 'src/store/rootReducer';
 import { increment, decrement, reset } from 'src/store/counter';
 
-const IndexPage = (): JSX.Element => {
+const IndexPage = (): ReactElement => {
   const dispatch = useDispatch();
   const counter: number = useSelector(
     (state: RootState) => state.counterReducer.value

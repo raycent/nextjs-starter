@@ -1,6 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { CounterState } from './types';
-import { RootState } from '../rootReducer';
 
 export const initialState: CounterState = {
   value: 0,

@@ -1,4 +1,3 @@
-import { render } from 'src/tests/testUtils';
 import reducer, { initialState, increment, decrement, reset } from './index';
 
 describe('counterSlice', () => {
